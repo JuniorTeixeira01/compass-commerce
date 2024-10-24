@@ -1,8 +1,10 @@
-import Image from "next/image";
+import { Header } from "./components/header";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
-   <main><h1>Compass Ecomerce</h1></main>
+   <>
+      <Header />
+   </>
   );
 }
